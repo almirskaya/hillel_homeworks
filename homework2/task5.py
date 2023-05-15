@@ -12,12 +12,3 @@ for guest in not_vip_box:
         counter_guests += 1
     counter_place += 1
 print(f'Other guests: {not_vip_box}')
-
-
-
-
-
-
-
-
-
