@@ -1,10 +1,10 @@
 import re
 
 
-def my_filter(function, iterable):
+def my_filter(callback, sequence):
     result = []
-    for element in iterable:
-        if function(element):
+    for element in sequence:
+        if callback(element):
             result.append(element)
     return result
 
